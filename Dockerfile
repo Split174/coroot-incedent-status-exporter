@@ -12,4 +12,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY ./src/exporter.py .
 
 # Set the command to run the worker script
-CMD [ "python", "exporter" ]
+CMD ["python", "exporter.py"]
